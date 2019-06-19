@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>JavaScript Event KeyCode</title>
+</head>
+<body id="body">
+    <div id="main" class="container main block text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <button id="button" class="button">
+                    Press any key to get the JavaScript event keycode
+                </button>
+            </div>
+        </div>
+    </div>
+        <div id="key-style" class="row key-style none text-center">
+            <div class="col-md-12">
+                13
+            </div>
+        </div>
+    <div id="key-info" class="container key-info none text-center">
+        
+        <div class="row card-style">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        event.key
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p id="1"></p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        event.location
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p id="2"></p>
+                        </blockquote>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row card-style">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                      event.which
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p id="3"></p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                      event.code
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p id="4"></p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button id="btnAlt" class="btn-active purple">Alt</button>
+                <button id="btnCtrl" class="btn-active purple">Ctrl</button>
+                <button id="btnShift" class="btn-active purple">Shift</button>
+                <button id="btnEntr" class="btn-active purple">Entr</button>
+                <button id="btnAltGr" class="btn-active purple">AltGr</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
